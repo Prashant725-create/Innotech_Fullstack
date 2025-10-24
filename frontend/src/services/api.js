@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Set up a base URL for all requests
 const API = axios.create({
-  baseURL: 'http://localhost:5001/api', // Your backend URL
+  baseURL: 'https://innotech-backend-tx4w.onrender.com/api', // Your backend URL
 });
 
 export const uploadFile = (formData) => {
